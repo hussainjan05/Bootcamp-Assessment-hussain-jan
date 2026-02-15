@@ -1,0 +1,79 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background: #e8edf4;
+  padding-top: 80px;
+}
+
+/* ----------------- Claymorphism Setup ----------------- */
+.clay-card, .clay-form, .clay-input, .clay-btn, .clay-nav {
+  background: #e8edf4;
+  border-radius: 20px;
+  box-shadow: 10px 10px 20px #cdd3dd,
+              -10px -10px 20px #ffffff;
+  transition: 0.3s;
+}
+
+/* NAVBAR */
+.clay-nav {
+  padding: 12px 0;
+  backdrop-filter: blur(10px);
+}
+
+.nav-link {
+  font-weight: 500;
+}
+
+/* HERO */
+.hero-section {
+  height: 90vh;
+}
+
+h1 {
+  font-size: 48px;
+}
+
+/* CLAY BUTTON */
+.clay-btn {
+  border: none;
+  padding: 12px 25px;
+  font-weight: 600;
+}
+
+.clay-btn:hover {
+  box-shadow: inset 10px 10px 20px #cdd3dd,
+              inset -10px -10px 20px #ffffff;
+}
+
+/* INPUT FIELDS */
+.clay-input {
+  padding: 12px;
+  border-radius: 15px;
+  border: none;
+}
+
+.clay-input:focus {
+  outline: none;
+  box-shadow: inset 7px 7px 15px #cfd4db,
+              inset -7px -7px 15px #ffffff;
+}
+
+/* CARDS */
+.clay-card:hover {
+  transform: translateY(-5px);
+}
+
+/* SECTION TITLES */
+.section-title {
+  font-weight: 700;
+  font-size: 32px;
+}
+
+/* RESPONSIVE TWEAKS */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 32px;
+  }
+  .hero-section {
+    height: 70vh;
+  }
+}

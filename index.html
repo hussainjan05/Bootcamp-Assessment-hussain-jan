@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Bootcamp Assessment - Hussain Jan</title>
+
+  <!-- Bootstrap 5 CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<!-- ======================= NAVBAR ======================= -->
+<nav class="navbar navbar-expand-lg clay-nav fixed-top">
+  <div class="container">
+    <a class="navbar-brand fw-bold" href="#">Hussain Jan</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navMenu">
+      <ul class="navbar-nav ms-auto gap-3">
+        <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="#services">Projects</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- ======================= HERO ======================= -->
+<section id="home" class="hero-section d-flex align-items-center justify-content-center">
+  <div class="container text-center">
+    <h1 class="fw-bold">Hi, I'm Hussain Jan</h1>
+    <p class="lead mt-3">
+      A passionate Web Developer building modern & interactive websites.
+    </p>
+    <button class="btn clay-btn mt-3">Learn More</button>
+  </div>
+</section>
+
+<!-- ======================= ABOUT ======================= -->
+<section id="about" class="py-5">
+  <div class="container">
+    <h2 class="section-title text-center mb-4">About Me</h2>
+    <p class="text-center w-75 mx-auto">
+      I am a beginner web developer learning HTML, CSS, Bootstrap and modern web technologies.  
+      I love creating responsive, clean and modern websites using latest design principles.  
+      This project is created as part of my bootcamp assessment.  
+      I enjoy learning new things every day and improving my skills.  
+      My goal is to become a professional front-end developer.
+    </p>
+  </div>
+</section>
+
+<!-- ======================= SERVICES ======================= -->
+<section id="services" class="py-5">
+  <div class="container">
+    <h2 class="section-title text-center mb-4">My Projects</h2>
+
+    <div class="row g-4">
+      
+      <!-- CARD 1 -->
+      <div class="col-md-6 col-lg-4">
+        <div class="card clay-card p-3">
+          <h5 class="fw-bold">Project One</h5>
+          <p class="mt-2">A simple responsive website built using HTML, CSS and Bootstrap.</p>
+          <button class="btn clay-btn mt-3">View More</button>
+        </div>
+      </div>
+
+      <!-- CARD 2 -->
+      <div class="col-md-6 col-lg-4">
+        <div class="card clay-card p-3">
+          <h5 class="fw-bold">Project Two</h5>
+          <p class="mt-2">A modern landing page designed using Claymorphism and UI principles.</p>
+          <button class="btn clay-btn mt-3">View More</button>
+        </div>
+      </div>
+
+        <!-- CARD  -->
+      <div class="col-md-6 col-lg-4">
+        <div class="card clay-card p-3">
+          <h5 class="fw-bold">Project Three</h5>
+          <p class="mt-2">A modern landing page designed using glassmorphism and UI principles.</p>
+          <button class="btn clay-btn mt-3">View More</button>
+        </div>
+      </div>
+
+
+    </div>
+  </div>
+</section>
+
+<!-- ======================= CONTACT ======================= -->
+<section id="contact" class="py-5">
+  <div class="container">
+    <h2 class="section-title text-center mb-4">Contact Me</h2>
+
+    <form class="clay-form p-4 mx-auto" style="max-width: 600px;">
+      <div class="mb-3">
+        <label class="form-label">Name</label>
+        <input type="text" class="form-control clay-input" required>
+      </div>
+
+      <div class="mb-3">
+        <label class="form-label">Email</label>
+        <input type="email" class="form-control clay-input" required>
+      </div>
+
+      <button class="btn clay-btn w-100 mt-3">Submit</button>
+    </form>
+
+  </div>
+</section>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
